@@ -20,7 +20,7 @@ Admin Sederhana adalah sebuah *boiler plate dashboard* yang dibangun di atas fon
 
 ## Langkah-langkah
 
-- Klon repositori ini: `git clone https://github.com/nurfachmi/admin-sederhana`
+- Klon repositori ini: `git clone https://github.com/catwhocode/admin-sederhana`
 - Masuk ke direktori projek: `cd admin-sederhana`
 - Instal yang diperlukan: `composer install`
 - Buat file .env: `cp .env.example .env`
@@ -56,27 +56,21 @@ CSS pada template ini menggunakan [Bootstrap CSS](https://getbootstrap.com), khu
 
 #### Login
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/Login-admin.test.png)
+![Login](docs/login.png)
 
 #### Dashboard
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/home-admin.test.png)
+![Dashboard](docs/dashboard.png)
 
 #### Users
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/users-admin.test.png)
+![Home](docs/users.png)
 
-#### CRUD User
-
-![Dashboard](https://nurfachmi.com/img/nurfachmi/newUser-admin.test.png)
 
 #### Roles
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/roles-admin.test.png)
+![Home](docs/roles.png)
 
-#### CRUD Role
-
-![Dashboard](https://nurfachmi.com/img/nurfachmi/permissionsForModerator-admin.test.png)
 
 ## Kontribusi
 
