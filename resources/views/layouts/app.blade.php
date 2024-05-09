@@ -77,7 +77,7 @@
 
     <footer class="footer mt-3 py-3">
         <div class="container text-center">
-            <span class="text-muted">{{ config('app.name') }} &copy; 2023</span>
+            <span class="text-muted">Copyright &copy; 2024 Your Company. All rights reserved</span>
         </div>
     </footer>
 

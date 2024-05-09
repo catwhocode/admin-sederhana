@@ -31,7 +31,7 @@ Admin Sederhana adalah sebuah *boiler plate dashboard* yang dibangun di atas fon
 
 ### Administrator
 
-- email: admin@nurfachmi.com
+- email: admin@admin.com
 - password: password
 
 ## Fitur-fitur
