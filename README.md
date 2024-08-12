@@ -1,40 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Simple admin dashboard
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is a simple admin dashboard built with [Laravel](https://www.laravel.com/)
 
-## Admin Sederhana
-
-Admin Sederhana adalah sebuah *boiler plate dashboard* yang dibangun di atas fondasi [Laravel](https://laravel.com) dan di-development bersama oleh kami, antara lain:
-
+Contributors:
 - [Indra](https://github.com/KingSit3)
 - [Jamal](https://github.com/jamalulinsan)
 - [Reynold](https://github.com/nekrophantom)
 - [Reza](https://github.com/AaEzha)
 
-> Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Langkah-langkah
+## Getting started
 
-- Klon repositori ini: `git clone https://github.com/catwhocode/admin-sederhana`
-- Masuk ke direktori projek: `cd admin-sederhana`
-- Instal yang diperlukan: `composer install`
-- Buat file .env: `cp .env.example .env`
-- Sesuaikan nilai-nilai pada file .env
-- Buat key aplikasi: `php artisan key:generate`
-- Jalankan migrasi data: `php artisan migrate --seed`
-- Hiduplah! `php artisan serve`
+- Download MailHog [here](https://github.com/mailhog/MailHog) and run it
+- Clone this repository:
+  `git clone https://github.com/catwhocode/admin-sederhana`
+- Enter to your project foler:
+  `cd admin-sederhana`
+- Install packages:
+  `composer install`
+- Copy .env.example to .env:
+  `cp .env.example .env`
+- Edit .env file
+- Generate application key:
+  `php artisan key:generate`
+- Run migration:
+  `php artisan migrate --seed`
+- Run the webserver
+  `php artisan serve`
+- Point your browser to `http://localhost:8000`
 
 ### Administrator
 
 - email: admin@admin.com
 - password: password
 
-## Fitur-fitur
+## Features
 
 - Login
 - ~~Register~~
@@ -48,11 +48,13 @@ Admin Sederhana adalah sebuah *boiler plate dashboard* yang dibangun di atas fon
 - Update password
 - Logout
 
-## C S S
+## Frontend
 
-CSS pada template ini menggunakan [Bootstrap CSS](https://getbootstrap.com), khususnya menggunakan tema dari [Bootswatch](https://bootswatch.com/). Anda dengan mudah berganti tema dengan me-*replace* file **bootstrap.min.css** yang terdapat pada folder **public/css**.
+- CSS: [Bootstrap CSS](https://getbootstrap.com),
+- Template: [Bootswatch](https://bootswatch.com/).
+    - You can switch theme by replacing **bootstrap.min.css** in **public/css** folder.
 
-## Tangkapan Layar
+## Screenshots
 
 #### Login
 
@@ -72,10 +74,10 @@ CSS pada template ini menggunakan [Bootstrap CSS](https://getbootstrap.com), khu
 ![Home](docs/roles.png)
 
 
-## Kontribusi
+## Contribute
 
-Kontribusi Anda sangat diperlukan untuk melengkapi *boilerplate* admin sederhana ini. Silahkan *fork*, kemudian buat *Pull Request* untuk setiap fitur atau perbaikan yang dibuat. Kita akan selalu menerima saran dan kritik yang membangun agar aplikasi ini lebih baik kembali.
+Fork this repo, make some update then send Pull Request
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [MIT license](https://opensource.org/licenses/MIT).
